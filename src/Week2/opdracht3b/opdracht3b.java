@@ -19,6 +19,6 @@ public class opdracht3b {
   *Dit zou in prencipe niet kunnen.
   *
   * Na test, hij voerd het uit. Maar geeft terug als printin beide Null. Dit had ik moeten kunnen zien aankomen
-  * aangezien hij niet de methode Cirkel oproept dus nooit een exceptie krijgt. En dus ook nooit iets wordt veranderd.
+  * aangezien hij niet de class Cirkel oproept dus nooit een exceptie krijgt en dus ook nooit een cirkel wordt aangemaakt.
   * Dus print hij de data in c1 en c2 die hij kreeg in het begin. Dat was dus Null.
   */
