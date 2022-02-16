@@ -3,16 +3,16 @@ package Week2.Opdracht4A;
 public class Huis {
     private String adres;
     private int bouwjaar;
-    private String Huisbaas;
+    private Persoon Huisbaas;
 
     public Huis(String adres, int bouwjaar){
         this.adres = adres;
         this.bouwjaar = bouwjaar;
     }
-    public void setHuisbaas(Persoon Huisbaas) {
-          this.Huisbaas = Huisbaas.naam +"; leeftijd "+ Huisbaas.leeftijd + " jaar.";
+    public void setHuisbaas(Persoon huisbaas) {
+            this.Huisbaas = huisbaas;
     }
-    public String getHuisbaas(){
+    public Persoon getHuisbaas(){
         return(Huisbaas);
     }
     public String toString(){

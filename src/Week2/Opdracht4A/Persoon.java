@@ -2,8 +2,8 @@ package Week2.Opdracht4A;
 
 
 public class Persoon {
-    public String naam;
-    public int leeftijd;
+    private String naam;
+    private int leeftijd;
 
     public Persoon(String naam, int leeftijd){
         this.naam = naam;
@@ -13,6 +13,6 @@ public class Persoon {
 
 
     public String toString(){
-        return("");
+        return(naam +"; leeftijd "+ leeftijd + " jaar");
     }
 }
