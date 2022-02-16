@@ -2,12 +2,15 @@ package week1.opdracht7;
 
 public class Voetbalclub {
    public String naam;
-   public Integer aantalGewonnen = 0;
-   public Integer aantalGelijk = 0;
-   public Integer aantalVerloren = 0;
+   public int aantalGewonnen = 0;
+   public int aantalGelijk = 0;
+   public int aantalVerloren = 0;
 
    public Voetbalclub(String naam){
-       this.naam = naam;
+       if(naam == ""){
+           this.naam = "FC";}
+       else
+            this.naam = naam;
 
    }
 
